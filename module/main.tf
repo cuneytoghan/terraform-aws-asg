@@ -1,7 +1,3 @@
-# Deploy ASG AND ELB
-### Please copy paste below codes to create asg and elb
-
-```
 module "asg" {
   source           = "../"
   region           = "us-east-1"
@@ -16,4 +12,3 @@ module "asg" {
     Name = "startup"
   }
 }
-```
