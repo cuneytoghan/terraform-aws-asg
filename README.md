@@ -3,7 +3,7 @@
 
 ```
 module "asg" {
-  source           = "../"
+  source           = "cuneytoghan/asg/aws"
   region           = "us-east-1"
   name_prefix      = "foobar"
   image_id         = "ami-06ca3ca175f37dd66"
